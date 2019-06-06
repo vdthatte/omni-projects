@@ -1,0 +1,75 @@
+body{
+	font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+	scroll-behavior: smooth;
+}
+
+
+html{
+	scroll-behavior: smooth;
+}
+
+@media only screen and (min-width: 600px) {
+
+	.menu{
+		float: left;
+		width: 40%;
+		padding-top: 3%;
+		padding-left: 5%;
+		padding-right: 5%;
+		position: fixed;
+		overflow-y: scroll
+	}
+
+	.container{
+		overflow-y: scroll;
+    	overflow-x:hidden;
+	}
+
+	.menu-title{
+		font-size: 56px;
+	}
+
+	.content{
+		width: 50%;
+		margin-left: 40%;
+		overflow-y: scroll
+	}
+
+	.content-paragraph{
+		font-size: 42px;
+		opacity: 0.4;
+	}
+
+	.link{
+		text-decoration: none;
+		color: #000;
+	}
+
+	.bullet{
+		padding-top: 1%;
+		padding-bottom: 1%;
+		padding-left: 2.2%;
+		padding-right: 2.2%;
+		border-radius: 100px;
+		background-color: #FC6262;
+		color: #fff;
+		font-size: 22px;
+		margin-right: 5%;
+		vertical-align: middle;
+		font-weight: 400;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.menu{
+		float: left;
+	}
+
+	.menu-title{
+
+	}
+
+	.content{
+		overflow: scroll;
+	}
+}
