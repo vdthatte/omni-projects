@@ -10,6 +10,11 @@ html{
 
 @media only screen and (min-width: 600px) {
 
+	.tagLine{
+		font-size: 4vw;
+		font-weight: 700;
+	}
+
 	.logoDiv{
 		margin-bottom: 10%;
 	}
@@ -66,12 +71,14 @@ html{
 
 	 .col{
 	 	flex: 1;
-	 	height: 700px;
-	 	background-color: #E5E7E9;
+	 	height: 600px;
+	 	background-color: #FFF;
 	 	margin-bottom: 3%;
 	 	margin-left: 1%;
 	 	margin-right: 1%;
-
+	 	border-radius: 10px;
+	 	padding-top: 1%;
+	 	box-shadow: 0 3px 70px 12px rgba(0,0,0,0.1);
 	 }
 
 	 .flex-grid {
@@ -86,6 +93,17 @@ html{
 
 	 .grid{
 	 	margin-top: 5%;
+	 }
+
+	 .title{
+	 	font-size: 1.4vw;
+	 	padding-left: 2%;
+	 	padding-right: 2%;
+	 	padding-bottom: 3%;
+	 }
+
+	 .link{
+	 	text-decoration: none;
 	 }
 
 }
