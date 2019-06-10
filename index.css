@@ -21,13 +21,22 @@ html{
 
 @media only screen and (min-width: 600px) {
 
+	body{
+		padding-top: 10%;
+	}
+
 	.subject-container{
 		background: #f2f4f5;
     	border-radius: 12px;
-    	padding-left: 1%;
-    	padding-right: 1%;
+    	padding-left: 0.5%;
+    	padding-right: 0.5%;
     	padding-top: 0.5%;
     	padding-bottom: 0.5%;
+    	margin-left: 1%;
+	}
+
+	.headingSection{
+		margin-left: 25%;
 	}
 
 	.tagLine{
@@ -151,12 +160,14 @@ html{
 
 	.footer {
 		margin-top: 10%;
-	    padding: 50px 0;
 	    background-color: #32393d;
+	    left: 0;
+	    bottom: 0;
+	    right: 0;
 	}
 
 	.footer-social-link{
-
+		text-decoration: none;
 	}
 
 	.heading-xsmall-bold {
@@ -168,6 +179,16 @@ html{
 
 	.footer-title{
 		color: #fff;
+	}
+
+	.footer-link{
+		text-decoration: none;
+		color: #fff;
+		list-style: none;
+	}
+
+	li{
+		list-style: none;
 	}
 
 }
