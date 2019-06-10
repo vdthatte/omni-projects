@@ -16,6 +16,7 @@ html{
 @media only screen and (min-width: 600px) {
 
 	.tagLine{
+		padding-top: 10%;
 		font-size: 4vw;
 		font-weight: 700;
 	}
@@ -109,6 +110,29 @@ html{
 	 .link{
 	 	text-decoration: none;
 	 }
+
+	 .headerNav{
+	 	padding-top: 1%;
+	 	padding-bottom: 1%;
+	 	width: 100%;
+	 	height: 5%;
+	 	position: fixed;
+	 	background-color: #fff;
+	 	top: 0;
+	 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+	 }
+
+	.omni-marketing, .footer {
+	    padding: 50px 0;
+	    background-color: #32393d;
+	}
+
+	.heading-xsmall-bold {
+	    font-size: 18px;
+	    line-height: 1.25;
+	    fill: #fff;
+    	transition: fill 0.15s ease-in-out;
+	}
 
 }
 
