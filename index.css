@@ -3,6 +3,12 @@
   src: url(CircularStd-Book.otf);
 }
 
+@font-face {
+  font-family: CircularMedium;
+  src: url(CircularStd-Medium.otf);
+}
+
+
 body{
 	scroll-behavior: smooth;
 	font-family: Circular;
@@ -15,10 +21,25 @@ html{
 
 @media only screen and (min-width: 600px) {
 
+	.desc{
+		text-align: left;
+	}
+
+	.subject-container{
+		background: #f2f4f5;
+    	border-radius: 12px;
+    	padding-left: 1%;
+    	padding-right: 1%;
+    	padding-top: 0.5%;
+    	padding-bottom: 0.5%;
+	}
+
 	.tagLine{
 		padding-top: 10%;
 		font-size: 4vw;
 		font-weight: 700;
+		color: #32393d;
+		font-family: CircularMedium;
 	}
 
 	.logoDiv{
@@ -87,6 +108,8 @@ html{
 
 	 .flex-grid {
 		 display: flex;
+		 padding-right: 3%;
+		 padding-left: 3%;
 	 }
 
 	 .img{
@@ -122,9 +145,13 @@ html{
 	 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 	 }
 
-	.omni-marketing, .footer {
+	.footer {
 	    padding: 50px 0;
 	    background-color: #32393d;
+	}
+
+	.footer-social-link{
+
 	}
 
 	.heading-xsmall-bold {
@@ -132,6 +159,10 @@ html{
 	    line-height: 1.25;
 	    fill: #fff;
     	transition: fill 0.15s ease-in-out;
+	}
+
+	.footer-title{
+		color: #fff;
 	}
 
 }
