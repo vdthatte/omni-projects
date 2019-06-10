@@ -104,7 +104,6 @@ html{
 
 
 	.desc{
-		text-align: left;
 		z-index: 999;
 		width: 100%;
 	}
@@ -120,6 +119,7 @@ html{
 	 	width: 100%;
 	 	object-fit: cover;
 	 	z-index: -999;
+	 	border-radius: 16px;
 	 }
 
 	 .grid{
@@ -131,7 +131,6 @@ html{
 	 	padding-left: 2%;
 	 	padding-right: 2%;
 	 	padding-bottom: 3%;
-	 	text-align: left;
 	 }
 
 	 .link{
