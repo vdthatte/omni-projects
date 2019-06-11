@@ -29,7 +29,7 @@ html{
 		background: #f2f4f5;
     	border-radius: 12px;
     	padding-left: 0.5%;
-    	padding-right: 0.5%;
+    	padding-right: 1%;
     	padding-top: 0.5%;
     	padding-bottom: 0.5%;
     	margin-left: 1%;
@@ -37,6 +37,7 @@ html{
 
 	.headingSection{
 		margin-left: 25%;
+		margin-top: 10%;
 	}
 
 	.tagLine{
@@ -107,14 +108,17 @@ html{
 	 	background-color: #FFF;
 	 	margin-bottom: 3%;
 	 	padding-top: 1%;
-	 	margin-right: 1%;
-	 	margin-left: 1%;
+	 	margin-right: 0.5%;
+	 	margin-left: 0.5%;
 	 }
 
 
 	.desc{
 		z-index: 999;
 		width: 100%;
+		font-family: CircularMedium;
+		line-height: 1em;
+		padding-top: 5%;
 	}
 
 	 .flex-grid {
@@ -136,7 +140,7 @@ html{
 	 }
 
 	 .title{
-	 	font-size: 1.6vw;
+	 	font-size: 1.5vw;
 	 	padding-left: 2%;
 	 	padding-right: 2%;
 	 	padding-bottom: 3%;
@@ -158,51 +162,152 @@ html{
 	 	z-index: 999;
 	 }
 
-	.footer {
-		margin-top: 10%;
-	    background-color: #32393d;
-	    left: 0;
-	    bottom: 0;
-	    right: 0;
-	}
-
-	.footer-social-link{
-		text-decoration: none;
-	}
-
-	.heading-xsmall-bold {
-	    font-size: 18px;
-	    line-height: 1.25;
-	    fill: #fff;
-    	transition: fill 0.15s ease-in-out;
-	}
-
-	.footer-title{
-		color: #fff;
-	}
-
-	.footer-link{
-		text-decoration: none;
-		color: #fff;
-		list-style: none;
-	}
-
-	li{
-		list-style: none;
-	}
 
 }
 
 @media only screen and (max-width: 600px) {
+	body{
+		padding-top: 10%;
+	}
+
+	.subject-container{
+		background: #f2f4f5;
+    	border-radius: 12px;
+    	padding-left: 0.5%;
+    	padding-right: 1%;
+    	padding-top: 0.5%;
+    	padding-bottom: 0.5%;
+    	margin-left: 1%;
+	}
+
+	.headingSection{
+		margin-left: 10%;
+		margin-top: 20%;
+	}
+
+	.tagLine{
+		padding-top: 10%;
+		font-size: 10vw;
+		font-weight: 700;
+		color: #32393d;
+		font-family: CircularMedium;
+	}
+
+	.logoDiv{
+		margin-bottom: 10%;
+	}
+
 	.menu{
 		float: left;
+		width: 40%;
+		padding-top: 3%;
+		padding-left: 5%;
+		padding-right: 5%;
+		position: fixed;
+		overflow-y: scroll
+	}
+
+	.container{
+		overflow-y: scroll;
+    	overflow-x:hidden;
 	}
 
 	.menu-title{
-
+		font-size: 56px;
 	}
 
 	.content{
-		overflow: scroll;
+		width: 50%;
+		margin-left: 40%;
+		overflow-y: scroll
 	}
+
+	.content-paragraph{
+		padding-top: 2%;
+		font-size: 42px;
+		opacity: 0.4;
+	}
+
+	.link{
+		text-decoration: none;
+		color: #000;
+	}
+
+	.bullet{
+		padding-top: 1%;
+		padding-bottom: 1%;
+		padding-left: 2.2%;
+		padding-right: 2.2%;
+		border-radius: 100px;
+		background-color: #FC6262;
+		color: #fff;
+		font-size: 22px;
+		margin-right: 5%;
+		vertical-align: middle;
+		font-weight: 400;
+	}
+
+	.col{
+	 	flex: 1;
+	 	height: 600px;
+	 	background-color: #FFF;
+	 	margin-bottom: 3%;
+	 	padding-top: 1%;
+	 	margin-right: 0.5%;
+	 	margin-left: 0.5%;
+	 }
+
+
+	.desc{
+		z-index: 999;
+		width: 100%;
+		font-family: CircularMedium;
+		line-height: 1em;
+		padding-top: 5%;
+		font-size: 6vw; 
+		text-align: left;
+		width: 90%;
+	}
+
+	 .flex-grid {
+		 padding-right: 3%;
+		 padding-left: 3%;
+	 }
+
+	 .img{
+	 	height: 300px;
+	 	width: 90%;
+	 	object-fit: cover;
+	 	z-index: -999;
+	 	border-radius: 16px;
+	 }
+
+	 .grid{
+	 	margin-top: 5%;
+	 }
+
+	 .title{
+	 	font-size: 7vw;
+	 	padding-left: 2%;
+	 	padding-right: 2%;
+	 	padding-bottom: 3%;
+	 	text-align: left;
+	 }
+
+	 .link{
+	 	text-decoration: none;
+	 }
+
+	 .headerNav{
+	 	padding-top: 1%;
+	 	padding-bottom: 1%;
+	 	width: 100%;
+	 	height: 5%;
+	 	position: fixed;
+	 	background-color: #fff;
+	 	top: 0;
+	 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+	 	z-index: 999;
+	 }
+
 }
