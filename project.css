@@ -27,6 +27,7 @@ html{
 
 	.rentButton{
 		padding-top: 10%;
+		padding-bottom: 10%;
 	}
 
 	.project-title{
@@ -36,7 +37,7 @@ html{
 
 	.duration{
 		padding-top: 5%;
-		font-size: 2vw;
+		font-size: 3vw;
 	}
 
 	.subject-container{
@@ -189,7 +190,22 @@ html{
 
 @media only screen and (max-width: 600px) {
 	body{
+		padding-top: 0%;
+	}
+
+	.rentButton{
 		padding-top: 10%;
+		padding-bottom: 10%;
+	}
+
+	.project-title{
+		font-size: 4vw;
+		padding-bottom: 5%;
+	}
+
+	.duration{
+		padding-top: 5%;
+		font-size: 3vw;
 	}
 
 	.subject-container{
@@ -203,13 +219,13 @@ html{
 	}
 
 	.headingSection{
-		margin-left: 10%;
-		margin-top: 20%;
+		margin-left: 25%;
+		margin-top: 10%;
 	}
 
 	.tagLine{
 		padding-top: 10%;
-		font-size: 10vw;
+		font-size: 4vw;
 		font-weight: 700;
 		color: #32393d;
 		font-family: CircularMedium;
@@ -219,54 +235,60 @@ html{
 		margin-bottom: 10%;
 	}
 
-	.menu{
-		float: left;
-		width: 40%;
-		padding-top: 10%;
+	.tutorial-menu{
+		width: 80%;
+		margin-top:20%;
+		padding-top: 7.5%;
 		padding-left: 5%;
 		padding-right: 5%;
-		position: fixed;
 		overflow-y: scroll
 	}
 
-	.container{
+	.tutorial-container{
 		overflow-y: scroll;
     	overflow-x:hidden;
 	}
 
-	.menu-title{
-		font-size: 48px;
-	}
-
-	.content{
-		width: 50%;
-		margin-left: 40%;
-		overflow-y: scroll
-	}
-
-	.content-paragraph{
-		padding-top: 2%;
+	.tutorial-menu-title{
 		font-size: 42px;
-		opacity: 0.4;
+		padding-top: 2%;
 	}
 
-	.link{
-		text-decoration: none;
-		color: #000;
+	.tutorial-menu-title-left{
+		font-size: 32px;
+		font-weight: 700;
 	}
 
 	.bullet{
-		padding-top: 1%;
-		padding-bottom: 1%;
-		padding-left: 2.2%;
-		padding-right: 2.2%;
-		border-radius: 100px;
-		background-color: #FC6262;
-		color: #fff;
-		font-size: 22px;
+		color: #000;
+		font-size: 32px;
 		margin-right: 5%;
 		vertical-align: middle;
-		font-weight: 400;
+		font-weight: 700;
+	}
+
+	section{
+		padding-top: 10%;
+	}
+
+	.content{
+		width: 85%;
+		margin-left: 5%;
+		overflow-y: scroll;
+		margin-bottom: 20%;
+	}
+
+	.content-paragraph{
+		padding-top: 2.5%;
+		font-size: 32px;
+		opacity: 0.4;
+		line-height: 1.2em;
+		font-family: Circular;
+	}
+
+	.tutorial-link{
+		text-decoration: none;
+		color: #000;
 	}
 
 	.col{
@@ -286,19 +308,17 @@ html{
 		font-family: CircularMedium;
 		line-height: 1em;
 		padding-top: 5%;
-		font-size: 6vw; 
-		text-align: left;
-		width: 90%;
 	}
 
 	 .flex-grid {
+		 display: flex;
 		 padding-right: 3%;
 		 padding-left: 3%;
 	 }
 
 	 .img{
-	 	height: 300px;
-	 	width: 90%;
+	 	height: 400px;
+	 	width: 100%;
 	 	object-fit: cover;
 	 	z-index: -999;
 	 	border-radius: 16px;
@@ -309,11 +329,10 @@ html{
 	 }
 
 	 .title{
-	 	font-size: 7vw;
+	 	font-size: 1.5vw;
 	 	padding-left: 2%;
 	 	padding-right: 2%;
 	 	padding-bottom: 3%;
-	 	text-align: left;
 	 }
 
 	 .link{
@@ -331,5 +350,6 @@ html{
 	 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 	 	z-index: 999;
 	 }
+
 
 }
