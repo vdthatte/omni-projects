@@ -27,7 +27,12 @@ html{
 
 	.rentButton{
 		padding-top: 10%;
-		padding-bottom: 10%;
+		padding-bottom: 5%;
+	}
+
+	.rentDescription{
+		font-size: 2vw;
+		padding-bottom: 5%;
 	}
 
 	.project-title{
